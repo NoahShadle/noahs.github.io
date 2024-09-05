@@ -27,6 +27,10 @@ body {
     font-size: 24px;
 }
 
+#navbar a:focus {
+    color: white;
+}
+
 #navbar a:hover {
     color: white;
 }
@@ -359,6 +363,11 @@ button:hover {
     color: red;
     font-weight: bold;
     border-bottom: solid black 8px;
+}
+
+#page1 .link1, #page2 .link2, #page3 .link3,
+#page4 .link4, #page5 .link5, #page6 .link6 {
+    color: white;
 }
 
 /* Media screens */
