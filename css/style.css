@@ -1359,10 +1359,6 @@ button:hover {
     gap: 20px;
   }
 
-  .side p {
-    padding-right: none;
-  }
-
   .side .bar {
     border-right: none;
     text-align: left;
