@@ -371,7 +371,7 @@ button:hover {
   margin: 0px;
   border-radius: 24px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .under {
@@ -1683,7 +1683,7 @@ button:hover {
     margin: 0px;
     border-radius: 24px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 
@@ -1705,6 +1705,6 @@ button:hover {
     margin: 0px;
     border-radius: 24px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
