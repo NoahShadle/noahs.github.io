@@ -138,30 +138,57 @@ body {
 
 #layout hr {
   height: 4px;
+  height: -webkit-4px;
+  height: -moz-4px;
   background-color: red;
+  background-color: -webkit-red;
+  background-color: -moz-red;
   margin: 0 auto;
+  margin: -webkit-0 auto;
+  margin: -moz-0 auto;
   margin-bottom: 30px;
+  margin-bottom: -moz-30px;
 }
 
 #layout img {
   width: 40vh;
+  width: -webkit-40vh;
+  width: -moz-40vh;
   margin-right: 20px;
+  margin-right: -webkit-20px;
+  margin-right: -moz-20px;
 }
 
 .column {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   flex-direction: column;
+  flex-direction: -webkit-column;
+  flex-direction: -moz-column;
   width: 80vw;
+  width: -moz-80vw;
   margin-right: 80px;
+  margin-right: -webkit-80px;
+  margin-right: -moz-80px;
   background-color: grey;
+  background-color: -webkit-grey;
+  background-color: -moz-grey;
   padding: 10px;
+  padding: -webkit-10px;
   border-radius: 8px;
+  border-radius: -webkit-8px;
   font-weight: bold;
+  font-weight: -webkit-bold;
 }
 
 .column hr {
   height: 4px;
+  height: -moz-4px;
+  height: -webkit-4px;
   background-color: red;
+  background-color: -webkit-red;
+  background-color: -moz-red;
 }
 
 .column p {
