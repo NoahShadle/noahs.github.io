@@ -147,7 +147,7 @@ body {
   margin-right: 20px;
 }
 
-#column {
+.column {
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -158,12 +158,12 @@ body {
   font-weight: bold;
 }
 
-#column hr {
+.column hr {
   height: 4px;
   background-color: red;
 }
 
-#column p {
+.column p {
   margin-top: 8px;
   padding: 10px;
   margin-bottom: 20px;
