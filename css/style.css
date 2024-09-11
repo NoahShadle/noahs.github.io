@@ -83,7 +83,7 @@ body {
   border-right: none;
 }
 
-.side #bar {
+.side p {
   margin-left: 54px;
   border-right: solid red;
 }
