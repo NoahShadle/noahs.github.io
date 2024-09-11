@@ -79,6 +79,10 @@ body {
   padding-right: 40px;
 }
 
+.side #bar:last-child {
+  border-right: none;
+}
+
 .side #bar {
   margin-left: 54px;
   border-right: solid red;
@@ -458,11 +462,8 @@ button:hover {
   }
 
   .side #bar {
-    border-right: solid red;
-  }
-
-  .side #bar {
     margin-left: 54px;
+    border-right: solid red;
   }
 
   #footer {
