@@ -147,7 +147,7 @@ body {
   margin-right: 20px;
 }
 
-.column {
+#column {
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -158,12 +158,12 @@ body {
   font-weight: bold;
 }
 
-.column hr {
+#column hr {
   height: 4px;
   background-color: red;
 }
 
-.column p {
+#column p {
   margin-top: 8px;
   padding: 10px;
   margin-bottom: 20px;
@@ -528,7 +528,7 @@ button:hover {
     margin-right: 20px;
   }
 
-  .column {
+  #column {
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -539,12 +539,12 @@ button:hover {
     font-weight: bold;
   }
 
-  .column hr {
+  #column hr {
     height: 4px;
     background-color: red;
   }
 
-  .column p {
+  #column p {
     margin-top: 8px;
     padding: 10px;
     margin-bottom: 20px;
@@ -870,7 +870,7 @@ button:hover {
     margin-right: 20px;
   }
 
-  .column {
+  #column {
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -881,12 +881,12 @@ button:hover {
     font-weight: bold;
   }
 
-  .column hr {
+  #column hr {
     height: 4px;
     background-color: red;
   }
 
-  .column p {
+  #column p {
     margin-top: 8px;
     padding: 10px;
     margin-bottom: 20px;
@@ -1197,7 +1197,7 @@ button:hover {
     margin-right: 20px;
   }
 
-  .column {
+  #column {
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -1208,7 +1208,7 @@ button:hover {
     font-weight: bold;
   }
 
-  .column hr {
+  #column hr {
     height: 4px;
     background-color: red;
   }
@@ -1481,7 +1481,7 @@ button:hover {
     font-size: 22px;
   }
 
-  .column {
+  #column {
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -1492,11 +1492,11 @@ button:hover {
     font-weight: bold;
   }
 
-  .column h3 {
+  #column h3 {
     font-size: 18px;
   }
 
-  .column p {
+  #column p {
     margin-top: 8px;
     padding: 10px;
     margin-bottom: 20px;
@@ -1911,49 +1911,49 @@ button:hover {
     transition: opacity 0.8s;
     display: none;
   }
-}
 
-/* Media Screen Conatct Page */
+  /* Media Screen Conatct Page */
 
-@media screen and (max-width: 650px) and (min-width: 350px) {
-  .contact-left-title h2 {
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 0px;
-    text-align: center;
-    margin-top: 8%;
+  @media screen and (max-width: 650px) and (min-width: 350px) {
+    .contact-left-title h2 {
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 0px;
+      text-align: center;
+      margin-top: 8%;
+    }
+
+    .contact-inputs {
+      width: 220px;
+      height: 50px;
+      border: none;
+      padding-left: 20px;
+      font-weight: 400;
+      border-radius: 50px;
+      margin-top: 6px;
+    }
   }
 
-  .contact-inputs {
-    width: 220px;
-    height: 50px;
-    border: none;
-    padding-left: 20px;
-    font-weight: 400;
-    border-radius: 50px;
-    margin-top: 6px;
-  }
-}
+  /* Grid page */
 
-/* Grid page */
+  @media screen and (max-width: 970px) and (min-width: 730px) {
+    #grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 24px;
+      max-width: 1800px;
+      margin: 0px auto;
+      gap: 48px;
+    }
 
-@media screen and (max-width: 970px) and (min-width: 730px) {
-  #grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 24px;
-    max-width: 1800px;
-    margin: 0px auto;
-    gap: 48px;
-  }
-
-  #grid img {
-    width: 100%;
-    height: 400px;
-    margin: 0px;
-    border-radius: 24px;
-    -o-object-fit: cover;
-    object-fit: cover;
+    #grid img {
+      width: 100%;
+      height: 400px;
+      margin: 0px;
+      border-radius: 24px;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
   }
 }
 
