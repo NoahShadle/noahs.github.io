@@ -1404,11 +1404,16 @@ button:hover {
 
 /* Media Screen 3 */
 
-@media screen and (max-width: 800px) and (min-width: 350px) {
+@media screen and (max-width: 800px) and (min-width: 250px) {
+
   .center-column {
     width: 90vw;
     margin: 0px auto;
     margin-top: 50px;
+  }
+
+  #page1 p {
+    font-size: 25px;
   }
 
   .center-column hr {
@@ -1427,14 +1432,20 @@ button:hover {
     gap: 20px;
   }
 
-  .side .bar {
+  .side #bar {
     border-right: none;
+    border-bottom: solid red;
     text-align: left;
-    margin: 0px;
+    font-size: smaller;
   }
 
   .side #bar {
-    margin-left: 54px;
+    margin-left: 0px;
+    font-size: 18px;
+  }
+
+  .side #bar:last-child {
+    border-bottom: none;
   }
 
   #footer {
@@ -1464,13 +1475,13 @@ button:hover {
   }
 
   #layout {
-    width: 80%;
+    width: 90%;
     margin: 48px auto;
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 20px;
+    padding: 8px;
   }
 
   #layout p {
@@ -1612,7 +1623,7 @@ button:hover {
 
 /* Media Screen 2nd for Navbar */
 
-@media screen and (max-width: 798px) and (min-width: 350px) {
+@media screen and (max-width: 798px) and (min-width: 250px) {
   #navbar {
     background: black;
     display: flex;
