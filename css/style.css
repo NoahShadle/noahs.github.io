@@ -79,12 +79,13 @@ body {
   padding-right: 40px;
 }
 
-.side #bar {
-  border-right: solid red;
+.side #bar:last-child {
+  border-right: none;
 }
 
 .side #bar {
   margin-left: 54px;
+  border-right: solid red;
 }
 
 #footer {
@@ -836,7 +837,7 @@ button:hover {
   }
 
   #layout {
-    width: 40%;
+    width: 80%;
     margin: 48px auto;
     font-size: 24px;
     display: flex;
@@ -1163,7 +1164,7 @@ button:hover {
   }
 
   #layout {
-    width: 40%;
+    width: 70%;
     margin: 48px auto;
     font-size: 24px;
     display: flex;
@@ -1176,13 +1177,18 @@ button:hover {
   }
 
   #layout p {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 50px;
     font-size: 18px;
   }
 
+  #layout p:last-child {
+    margin: 0px;
+  }
+
   #layout h1 {
     font-size: 32px;
+    margin: 0px;
   }
 
   #layout hr {
@@ -1201,7 +1207,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     width: 80vw;
-    margin-right: 80px;
+    margin-right: 0px;
     background-color: grey;
     padding: 10px;
     border-radius: 8px;
@@ -1221,9 +1227,9 @@ button:hover {
 
   .box-content {
     display: flex;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    width: 90%;
+    margin: 48px auto;
+    gap: 25px;
   }
 
   #flex {
@@ -1235,7 +1241,7 @@ button:hover {
   }
 
   #contact-container {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1266,7 +1272,7 @@ button:hover {
   }
 
   .contact-inputs {
-    width: 600px;
+    width: 50vw;
     height: 50px;
     border: none;
     padding-left: 25px;
@@ -1338,7 +1344,7 @@ button:hover {
   }
 
   #service {
-    height: 80vh;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1354,7 +1360,6 @@ button:hover {
     margin: 0px auto;
     background-color: red;
     height: 5px;
-    margin-bottom: 10px;
   }
 
   .line hr {
@@ -1364,21 +1369,22 @@ button:hover {
 
   .line h1 {
     text-align: center;
+    margin-top: 50px;
   }
 
   #text p {
-    margin: 40px;
+    margin-bottom: 20px;
     font-size: 18px;
   }
 
   #about {
-    width: 80vw;
-    height: 70vh;
+    width: 90vw;
+    height: 90%;
     margin: 48px auto;
     font-size: 24px;
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 0px;
   }
 
   #about p {
@@ -1397,8 +1403,12 @@ button:hover {
   }
 
   #about img {
-    height: 50vh;
+    height: 60vh;
     margin-right: 20px;
+  }
+
+  .under hr {
+    margin: 0px;
   }
 }
 
