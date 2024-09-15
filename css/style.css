@@ -1076,32 +1076,6 @@ button:hover {
 /* Media Screen 2 */
 
 @media screen and (max-width: 1200px) and (min-width: 800px) {
-  #navbar {
-    background: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-
-  #navbar a {
-    text-decoration: none;
-    color: red;
-    padding: 24px;
-    transition: color 0.8s;
-    font-weight: bold;
-    font-size: 24px;
-  }
-
-  #navbar p {
-    display: none;
-  }
-
-  #navbar #logo img {
-    display: none;
-  }
 
   .center-column {
     width: 80vw;
@@ -1595,7 +1569,7 @@ button:hover {
 
 /* Media Screen for Navbar */
 
-@media screen and (max-width: 1200px) and (min-width: 782px) {
+@media screen and (max-width: 1200px) and (min-width: 783px) {
   #navbar {
     background: black;
     display: flex;
@@ -1604,21 +1578,29 @@ button:hover {
     position: sticky;
     top: 0;
     margin: 0 auto;
-    justify-content: space-evenly;
+  }
+
+  .group {
+    margin: 20px auto;
+    flex-direction: column;
+    display: flex;
+    border-bottom: solid 3px white;
+  }
+
+  .link1,
+  .link3,
+  .link5 {
+    border-bottom: solid 3px white;
   }
 
   #navbar a {
     text-decoration: none;
     color: red;
-    padding: 24px;
+    padding: 18px;
     transition: color 0.8s;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 0px;
-  }
-
-  #navbar a:last-child {
-    border: none;
   }
 
   #navbar #logo {
@@ -1630,7 +1612,7 @@ button:hover {
 
 /* Media Screen 2nd for Navbar */
 
-@media screen and (max-width: 798px) and (min-width: 250px) {
+@media screen and (max-width: 782px) and (min-width: 250px) {
   #navbar {
     background: black;
     display: flex;
@@ -1642,14 +1624,17 @@ button:hover {
     flex-direction: column;
   }
 
-  #navbar a {
+  #navbar .group a {
     color: red;
-    padding: 14px;
     font-size: 18px;
-    border-bottom: solid white;
   }
 
-  #navbar a:last-child {
+  .group {
+    padding: 20px;
+    border-bottom: solid 3px white;
+  }
+
+  .group:last-child {
     border: none;
   }
 
@@ -1740,7 +1725,6 @@ button:hover {
     color: red;
     padding: 14px;
     font-size: 18px;
-    border-bottom: solid white;
   }
 
   #navbar a:last-child {
