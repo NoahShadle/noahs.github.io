@@ -286,15 +286,12 @@ button:hover {
 }
 
 #service {
-  height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 0px;
-}
-
-#service h1 {
-  margin-bottom: 4px;
+  margin-bottom: 24px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 .service1 hr {
@@ -378,6 +375,7 @@ button:hover {
   color: red;
   font-weight: bold;
   border-bottom: solid black 8px;
+  margin-bottom: 0px;
 }
 
 #page1 .link1,
@@ -655,7 +653,6 @@ button:hover {
   }
 
   #service {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -997,11 +994,10 @@ button:hover {
   }
 
   #service {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 0px;
+    margin-bottom: 24px;
   }
 
   #service h1 {
@@ -1063,7 +1059,7 @@ button:hover {
 
 /* Media Screen 2 */
 
-@media screen and (max-width: 1200px) and (min-width: 800px) {
+@media screen and (max-width: 1199px) and (min-width: 800px) {
   #navbar {
     background: black;
     display: flex;
@@ -1217,14 +1213,6 @@ button:hover {
     gap: 25px;
   }
 
-  #flex {
-    display: flex;
-  }
-
-  #text p {
-    margin-top: 0px;
-  }
-
   #contact-container {
     height: 90vh;
     display: flex;
@@ -1328,40 +1316,6 @@ button:hover {
     background-color: red;
   }
 
-  #service {
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 0px;
-  }
-
-  #service h1 {
-    margin-bottom: 4px;
-  }
-
-  .service1 hr {
-    border-radius: 10px;
-    margin: 0px auto;
-    background-color: red;
-    height: 5px;
-  }
-
-  .line hr {
-    height: 4px;
-    background-color: red;
-  }
-
-  .line h1 {
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  #text p {
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-
   #about {
     width: 90vw;
     height: 90%;
@@ -1399,16 +1353,12 @@ button:hover {
 
 /* Media Screen 3 */
 
-@media screen and (max-width: 800px) and (min-width: 250px) {
+@media screen and (max-width: 799px) and (min-width: 250px) {
 
   .center-column {
     width: 90vw;
     margin: 0px auto;
     margin-top: 50px;
-  }
-
-  #page1 p {
-    font-size: 25px;
   }
 
   .center-column hr {
@@ -1421,26 +1371,15 @@ button:hover {
     flex-direction: column;
     margin: 4px;
     background-color: grey;
-    font-weight: bold;
+    font-size: 12px;
     padding: 6px;
     border-radius: 8px;
     gap: 20px;
   }
 
-  .side #bar {
-    border-right: none;
-    border-bottom: solid red;
-    text-align: left;
-    font-size: smaller;
-  }
-
-  .side #bar {
+  .side p {
     margin-left: 0px;
     font-size: 18px;
-  }
-
-  .side #bar:last-child {
-    border-bottom: none;
   }
 
   #footer {
@@ -1517,14 +1456,6 @@ button:hover {
     gap: 20px;
   }
 
-  #flex {
-    display: flex;
-  }
-
-  #text p {
-    margin-top: 0px;
-  }
-
   .contact-left-title h2 {
     font-weight: bold;
     font-size: 40px;
@@ -1541,15 +1472,6 @@ button:hover {
     font-weight: 800;
     border-radius: 50px;
     margin-top: 10px;
-  }
-
-  #service {
-    flex-direction: column;
-    margin-top: 50px;
-  }
-
-  #service h1 {
-    margin-bottom: 4px;
   }
 
   #about {
