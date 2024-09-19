@@ -163,9 +163,9 @@ body {
 }
 
 #column p {
-  margin-top: 8px;
-  padding: 10px;
-  margin-bottom: 20px;
+  margin-top: 4px;
+  padding: 6px;
+  margin-bottom: 0px;
   color: white;
 }
 
@@ -1219,7 +1219,7 @@ br {
   }
 
   #column hr {
-    height: 2px;
+    height: 4px;
     background-color: red;
   }
 
