@@ -185,10 +185,11 @@ body {
 }
 
 #contact-container {
-  height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin-top: 8%;
+  margin-bottom: 0px;
 }
 
 #contact-left {
@@ -291,7 +292,7 @@ button:hover {
   display: flex;
   align-items: center;
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 40px;
   width: 70vw;
 }
 
@@ -319,7 +320,7 @@ button:hover {
 }
 
 #about {
-  width: 40vw;
+  width: 90vw;
   margin: 48px auto;
   font-size: 24px;
   display: flex;
@@ -371,6 +372,23 @@ button:hover {
   border-radius: 24px;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px;
+  max-width: 1600px;
+  margin: 0px auto;
+  gap: 2%;
+}
+
+#grid2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 br {
@@ -573,10 +591,10 @@ br {
   }
 
   #contact-container {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 200px;
   }
 
   #contact-left {
@@ -709,7 +727,7 @@ br {
   }
 
   #about {
-    width: 50vw;
+    width: 90vw;
     height: 70vh;
     margin: 48px auto;
     font-size: 24px;
@@ -741,7 +759,7 @@ br {
 
 /* Media Screen 2 */
 
-@media screen and (max-width: 1880px) and (min-width: 1200px) {
+@media screen and (max-width: 1879px) and (min-width: 1200px) {
   #navbar {
     background: black;
     display: flex;
@@ -914,10 +932,10 @@ br {
   }
 
   #contact-container {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 200px;
   }
 
   #contact-left {
@@ -932,7 +950,6 @@ br {
     font-size: 40px;
     margin-bottom: 0px;
     text-align: center;
-    margin-top: 10px;
   }
 
   .contact-left-title hr {
@@ -941,7 +958,7 @@ br {
     margin: 0px auto;
     background-color: red;
     height: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .contact-inputs {
@@ -1237,10 +1254,10 @@ br {
   }
 
   #contact-container {
-    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 200px;
   }
 
   #contact-left {
@@ -1248,6 +1265,7 @@ br {
     background-color: gray;
     padding: 50px;
     box-shadow: 2px 16px 16px 8px red;
+    margin-bottom: 0px;
   }
 
   .contact-left-title h2 {
@@ -1255,7 +1273,6 @@ br {
     font-size: 40px;
     margin-bottom: 0px;
     text-align: center;
-    margin-top: 10px;
   }
 
   .contact-left-title hr {
@@ -1264,7 +1281,7 @@ br {
     margin: 0px auto;
     background-color: red;
     height: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .contact-inputs {
@@ -1341,12 +1358,11 @@ br {
 
   #about {
     width: 90vw;
-    height: 90%;
     margin: 48px auto;
     font-size: 24px;
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: 50px;
   }
 
   #about p {
@@ -1483,24 +1499,6 @@ br {
     gap: 20px;
   }
 
-  .contact-left-title h2 {
-    font-weight: bold;
-    font-size: 40px;
-    margin-bottom: 0px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .contact-inputs {
-    width: 500px;
-    height: 50px;
-    border: none;
-    padding-left: 25px;
-    font-weight: 800;
-    border-radius: 50px;
-    margin-top: 10px;
-  }
-
   #about {
     width: 90vw;
     height: 70vh;
@@ -1599,7 +1597,15 @@ br {
 
 /* Media Screen Contact Page */
 
-@media screen and (max-width: 650px) and (min-width: 350px) {
+@media screen and (max-width: 850px) and (min-width: 450px) {
+
+  #contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+
   .contact-left-title h2 {
     font-weight: bold;
     font-size: 30px;
@@ -1609,10 +1615,48 @@ br {
   }
 
   .contact-inputs {
-    width: 220px;
+    width: 300px;
     height: 50px;
     border: none;
     padding-left: 20px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 6px;
+  }
+}
+
+/* Media Screen Contact Page 2nd */
+
+@media screen and (max-width: 449px) and (min-width: 250px) {
+
+  #contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+
+  .contact-left-title h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  #contact-left {
+    border-radius: 2%;
+    background-color: gray;
+    padding: 8px;
+    box-shadow: 2px 16px 16px 8px red;
+    margin-bottom: 0px;
+  }
+
+  .contact-inputs {
+    width: 210px;
+    height: 50px;
+    border: none;
+    padding-left: 8px;
     font-weight: 400;
     border-radius: 50px;
     margin-top: 6px;
@@ -1688,5 +1732,24 @@ br {
     margin-right: auto;
     transition: opacity 0.8s;
     display: none;
+  }
+}
+
+/* design text media screen */
+
+@media screen and (max-width: 440px) and (min-width: 150px) {
+  #design {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    padding: 20px;
+    border-radius: 40px;
+    transition: all 0.7s;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto;
   }
 }
